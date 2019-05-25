@@ -6,11 +6,11 @@ class QuotesController < ApplicationController
   
   end
 
-  def new
+#  def new
 
-    @quote = Quote.new
+#    @quote = Quote.new
     
-  end
+#  end
 
   def create
     @quote = Quote.create(quote_params)
